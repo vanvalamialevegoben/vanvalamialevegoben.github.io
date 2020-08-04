@@ -1,0 +1,53 @@
+body
+{
+    background-color: #f0f0f0;
+}
+.logindiv
+{
+    padding: 15px;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 2px #777777;
+    display: inline-block;       /*felveszi a tartalom méretét */
+}
+.logindiv input
+{
+    display: block;
+    margin-bottom: 7px;
+}
+.logindiv input[type="email"] 
+{
+    border: solid 1px blue;
+}
+.logindiv input[type="Password"] 
+{
+    border: solid 1px red;
+}
+
+/*
+input[class$= "red"] {border: solid 1px red;}    ami red-re végződik
+input[class^= "blue"] {border: solid 1px blue}     ami blueval kezdődik
+*-ggal bárhol benne lehet
+*/
+
+.logindiv button:hover
+{
+    box-shadow: 0 0 3px #c0c0c0;
+}
+
+.logindiv input:focus 
+{
+    box-shadow: 2px 2p 3px #c0c0c0;
+    border: none;
+}
+ul li:last-child 
+{
+    text-decoration: underline;
+}
+ul li:first-child 
+{
+    color:red;
+}
+ul li:nth-child(2)
+{
+    color:blue;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Személyes adatok</legend>
+    <div>
+  <form>
+   <div>
+       <label for="name">Név: *</label>
+       <input id="name" name="name" type="text" placeholder="Név" required>
+   </div>
+   <div>
+    <label for="email">Email-cím: *</label>
+    <input id="email" name="email" type="email" placeholder="Email-cím" required>
+</div>
+<div>
+    <label for="adress">Cím: *</label>
+    <input id="adress" name="adress" type="text" placeholder="Cím" required>
+</div>
+<div>
+    <label for="comment">Megjegyzés:</label>
+    <textarea id="comment" name="comment" type="text" placeholder="Megjegyzés" rows="5"></textarea>
+</div>
+</fieldset>
+
+
+<fieldset>
+    <legend>Extra feltét</legend>
+
+<span>Extra feltét </span>
+<div>
+    <input checked id="valami1" name="valami1" type="radio" value="0">
+    <label for="nothing">valami1</label>
+</div>
+<div>
+    <input id="valami2" name="valami2" type="checkbox" value="0">
+    <label for="nothing">valami2</label>
+</div>
+<div>
+    <input id="valami3" name="valami3" type="checkbox" value="0">
+    <label for="nothing">valami3</label>
+</div>
+<div>
+    <input id="valami4" name="valami4" type="checkbox" value="0">
+    <label for="nothing">valami4</label>
+</div>
+<div>
+    <input id="valami5" name="valami5" type="checkbox" value="0">
+    <label for="nothing">valami5</label>
+</div>
+<div>
+    <label for="sauce">Szósz:</label>
+    <select id="sauce" name="sauce">
+        <option value="0" selected> szósz 1</option>
+        <option value="100"> szósz 2</option>
+    </select>
+</div>
+<div>
+    <label for="quantity">Mennyiség:</label>
+    <input id="quantity" name="quantity" type="number" min="1" max="10">
+</div>
+</fieldset>
+  </form>
+<div>
+    <input type="button" value="Rendelés leadása"> Ár: <span>1200</span> Ft
+</div>
+ </div>
+
+
+</body>
+</html>
