@@ -9,7 +9,7 @@
     <title>Document</title>
 </head>
 
-<body>
+<body  style="background-image: url(/kepek/d.jpg);">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="/bt.html">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -52,6 +52,41 @@
     </nav>
 
 
+
+
+    <div class="cointainer">
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-6">
+                <h1>Hamburger rendelés</h1>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Feltét</label>
+                        <select id="topInput" name="top-input" class="form-control">
+
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mennyiség</label>
+                        <input type="number" name="amount-input" class="form-control" value="1">
+                        <small class="form-text text-muted"></small>
+                        Minimum 1db maximum 10db
+                    </div>
+                    <div class="form-group">
+                        Fizetendő: <span class="show-amount">0</span>Ft
+                    </div>
+                    <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3">
@@ -71,40 +106,40 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-4"><div class="alert alert-primary" role="alert">
-                A simple primary alert—check it out!
-              </div>
-              <div class="alert alert-secondary" role="alert">
-                A simple secondary alert—check it out!
-              </div>
-              <div class="alert alert-success" role="alert">
-                A simple success alert—check it out!
-              </div>
-              <div class="alert alert-danger" role="alert">
-                A simple danger alert—check it out!
-              </div>
-              <div class="alert alert-warning" role="alert">
-                A simple warning alert—check it out!
-              </div>
-              <div class="alert alert-info" role="alert">
-                A simple info alert—check it out!
-              </div>
-              <div class="alert alert-light" role="alert">
-                A simple light alert—check it out!
-              </div>
-              <div class="alert alert-dark" role="alert">
-                A simple dark alert—check it out!
-              </div>
+            <div class="col-4">
+                <div class="alert alert-primary" role="alert">
+                    A simple primary alert—check it out!
+                </div>
+                <div class="alert alert-secondary" role="alert">
+                    A simple secondary alert—check it out!
+                </div>
+                <div class="alert alert-success" role="alert">
+                    A simple success alert—check it out!
+                </div>
+                <div class="alert alert-danger" role="alert">
+                    A simple danger alert—check it out!
+                </div>
+                <div class="alert alert-warning" role="alert">
+                    A simple warning alert—check it out!
+                </div>
+                <div class="alert alert-info" role="alert">
+                    A simple info alert—check it out!
+                </div>
+                <div class="alert alert-light" role="alert">
+                    A simple light alert—check it out!
+                </div>
+                <div class="alert alert-dark" role="alert">
+                    A simple dark alert—check it out!
+                </div>
             </div>
 
-            
+
         </div>
     </div>
 
 
-    <script src="js/main.js">
-        
-    </script>
+    <script src="js/main.js"></script>
+    <script src="js/scope.js"></script>
 </body>
 
 </html>
