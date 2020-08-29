@@ -44,4 +44,3 @@ for (let k in users) {
     createButtonGroup(tr)
     tableBody.appendChild(tr);
 }
-

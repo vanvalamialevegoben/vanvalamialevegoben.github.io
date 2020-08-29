@@ -34,3 +34,4 @@ while(index < toppings.length) {
     toppingSelect.appendChild(option);
     index ++ ;
 }
+
